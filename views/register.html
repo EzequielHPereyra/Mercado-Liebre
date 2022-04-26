@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Registrate</title>
+</head>
+<body>
+    <header>   
+        <div class="headerMain">
+     <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo">
+     
+        <div class="barra-de-busqueda">
+         <input type="text" placeholder="Buscar productos, marcas y más..."><i class="fas fa-search"></i>
+        </div>
+    
+        <p class="copy"><i class="fas fa-hand-holding-usd"></i>La mejor manera de comprar</p>
+    </div>
+     <nav class="header">
+       <ul class"navbar-left">
+          <li><a href=""> Ofertas </a></li>
+          <li><a href=""> Tiendas Oficiales </a></li>
+          <li><a href=""> Vender </a></li>
+          <li><a href=""> Ayuda </a></li>    
+       </ul>
+    
+       <ul class="navbar-right">
+          <li><a href="/register"> Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+          <li><a href="/login"> Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+          <li><a href=""> Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+       </ul>
+    </nav>
+    <div class="menu">
+        <i class="fas fa-bars"></i>
+        </div>
+</header>
+<main class="forms">
+
+<section class="container-form">
+    <p class="title-form" id="principal-form">Registrate</p>
+    <form action="/" method="post">
+        <label for="name">
+            <input class="banner" type="text" name="name" id="name" placeholder=" Nombre y apellido" required>
+        </label>
+        <label for="email"> 
+            <input class="banner" type="email" name="email" id="email" placeholder=" E-mail " required>
+        </label>
+        <label for="user-name">
+            <input class="banner" type="text" name="user-name" id="user-name" placeholder=" Usuario " required>
+        </label>
+        <p class="title-form">Fecha de cumpleaños</p>
+        <label for="age">
+            <input  class="banner" type="date" name="age" id="age" required>
+        </label>
+        <label for="adress">
+            <input class="banner" type="text" placeholder=" Domicilio">
+        </label>
+
+        <section class="formulario">
+        <div class="radio">
+
+        <p class="title-form">Perfil de usuario</p>
+
+            <input class="select" type="radio" name="user-profile"  id="comprador" value="comprador">
+            <label for="comprador">Comprador</label>
+        
+        
+            <input id="vendedor" class="select" type="radio" name="user-profile" value="vendedor">
+            <label for="vendedor">Vendedor </label>
+        </div>
+
+       
+      
+       <div class="checkbox">
+        <p class="title-form">Intereses</p>
+
+                <input id="electro" class="select" type="checkbox" name="categories" value="electro">
+                <label for="electro">Electronica</label>
+       
+           
+                <input id="moda" class="select" type="checkbox" name="categories" value="moda">
+                <label for="moda">Tendencias</label>
+        
+           
+                <input id="hogar" class="select" type="checkbox" name="categories" value="hogar"> 
+                <label for="hogar">Hogar</label>
+       
+            
+                <input id="jugueteria" class="select" type="checkbox" name="categories" value="jugeteria">
+                <label for="jugueteria">Jueguetes</label>
+           
+        
+                <input id="vida-sana" class="select" type="checkbox" name="categories" value="vida-sana">
+                <label for="vida-sana">Vida Saludable</label>
+            </div>
+        </section>
+            <p class="title-form">Foto de perfil</p>
+            <label for="profile-photo">
+                <input class="banner" type="file" name="profile-photo" id="profile-photo">
+            </label>
+            <label for="password">
+                <input class="banner" type="password" name="password" id="password" placeholder="Establecer contraseña" required>
+            </label>
+            <label for="password">
+                <input class="banner" type="password" name="password" id="password" placeholder="Confirmar contraseña" required>
+            </label>
+            <div class="contain-buttons">
+            <button type="reset" class="button-delete">Clean</button>
+            <button type="submit" class="button-send">Enviar</button>
+        
+        </form>
+</div>
+</main>
+</section>   
+<footer>
+    <article class="art-footer">
+       <i class="fas fa-credit-card"></i>
+   <h4> Pagá con tarjeta o en efectivo</h4>
+   <p class="text"> Usa el medio que quieras, los elegis vos y sabes que? ¡siempre es seguro! </p>
+    </article>
+   
+    <article class="art-footer">
+       <i class="fas fa-gift"></i>
+   <h4> Envío gratis desde $4.000</h4>
+   <p class="text"> Espera lo que mas deseas desde la comodidad de tu hogar!</p>
+    </article>
+  
+   <article class="art-footer">
+       <i class="fas fa-user-shield"></i>
+   <h4> Hacemos todo para garantizar tu seguridad </h4></li>
+   <p class="text"> Tus compras estas a salvo con nosotros</p>
+   </article>
+   
+       <p class="text">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+</footer>
+</body>
+</html>

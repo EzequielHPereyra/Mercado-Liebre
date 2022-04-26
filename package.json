@@ -1,0 +1,23 @@
+{
+  "name": "mercado-liebre",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celestroccayoli/Clase11-MercadoLiebre.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celestroccayoli/Clase11-MercadoLiebre/issues"
+  },
+  "homepage": "https://github.com/celestroccayoli/Clase11-MercadoLiebre#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
